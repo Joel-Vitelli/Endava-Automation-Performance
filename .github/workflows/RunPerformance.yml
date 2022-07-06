@@ -43,7 +43,7 @@ jobs:
       
        # Runs a set of commands using the runners shell
       - name: Step 4 - Build Maven
-        run: mvn compil
+        run: mvn compile
 
   Test:
     runs-on: ubuntu-latest
