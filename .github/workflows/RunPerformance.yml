@@ -55,7 +55,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Step 2 - Run Tests
-        run: mvn gatling:test '-DclassName=example.simulations.${{ github.event.inputs.automation_label }}'
+        run: mvn gatling:test '-DclassName=example.simulations.${{ github.event.inputs.simulation }}'
         
       - name: Step 6 - Generar Reportes (Artifact)
         uses: actions/upload-artifact@v2
