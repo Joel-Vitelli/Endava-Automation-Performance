@@ -1,6 +1,12 @@
 Performance with Gatling plugin, Maven and Java project
 ============================================
 
+## Tools needed for run the performance framework
+
+- JDK 11 - 14
+- Maven latest
+- Docker
+
 ## To run a spesific simulation, Run the follow maven comand
 
 ```mvn gatling:test '-DclassName=example.simulations.YourSimulation'``` [^1]
