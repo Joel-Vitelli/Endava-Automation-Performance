@@ -5,7 +5,7 @@ Performance with Gatling plugin, Maven and Java project
 
 - JDK 11 - 14
 - Maven latest (3.9.1)
-- Docker
+- Docker latest
 
 ## To run a spesific simulation, Run the follow maven comand
 
